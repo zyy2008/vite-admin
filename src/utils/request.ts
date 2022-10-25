@@ -64,7 +64,7 @@ interceptors.request.use(
       options: { ...options, interceptors: true },
     };
   },
-  { global: true }
+  { global: false }
 );
 
 /**
@@ -122,7 +122,7 @@ export function useRequest(
         options: { ...options, ...others, interceptors: true },
       };
     },
-    { global: false }
+    { global: true }
   );
   createClient.interceptors.response.use(async (res: Response) => {
     response?.(res);
