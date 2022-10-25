@@ -182,7 +182,7 @@ namespace Api {
 </template>
 <script>
 import { ref } from "vue";
-import { message } from 'ant-design-vue';
+import { message } from "ant-design-vue";
 import { getUserInfo } from "./server";
 export default defineComponent({
   setup() {
