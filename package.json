@@ -12,6 +12,7 @@
     "ant-design-vue": "^3.2.13",
     "umi-request": "^1.4.0",
     "vue": "^3.2.41",
+    "vue-request": "^1.2.4",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
