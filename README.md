@@ -18,7 +18,7 @@ Vite + Vue3 + TypeScript + Ant Design Vue + Umi-Request
 ├── src                        # 源代码
 │   ├── assets                 # 主题 字体等静态资源
 │   ├── components             # 业务通用组件
-│   ├── layout                 # 全局 layout
+│   ├── layouts                # 全局 layout
 │   ├── router                 # 路由
 │   ├── store                  # 全局 store管理
 │   ├── utils                  # 全局公用方法
