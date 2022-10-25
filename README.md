@@ -15,7 +15,6 @@ Vite + Vue3 + TypeScript + Ant Design Vue + Umi-Request
 ```bash
 ├── public                     # 静态资源
 │   │── favicon.ico            # favicon图标
-│   └── index.html             # html模板
 ├── src                        # 源代码
 │   ├── assets                 # 主题 字体等静态资源
 │   ├── components             # 业务通用组件
